@@ -1,0 +1,101 @@
+.card {
+    margin: 8px;
+}
+.add {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+.add:hover {
+    background-color: #218838;
+}
+
+.edit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.edit:hover {
+    background-color: #0069d9;
+    color: white;
+}
+
+.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.delete:hover {
+    background-color: #c82333;
+}
+
+.view {
+    background-color: #007bff;
+    color: white !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.view:hover {
+    background-color: #0056b3;
+    color: white !important;
+}
+.courses-def {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(152, 148, 148);
+}
+
+.add-def {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 6px;
+    color: rgb(152, 148, 148);
+}
+
+.courses {
+    color: white;
+    display: inline-block;
+}
+.drop {
+    font-size: 15px;
+}
+
+.review {
+    font-size: 14px;
+}
+
+.lesson {
+    font-size: 16px;
+    color: rgb(152, 148, 148);
+}
+
+.myImg {
+    object-fit: cover;
+    height: 300px;
+}
+
+.certi {
+    font-size: 12px;
+}
